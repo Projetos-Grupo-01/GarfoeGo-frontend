@@ -1,14 +1,16 @@
+import ListarProdutosHome from "../../components/produtos/listarprodutos/ListarProdutoHome";
+
 function Home() {
     return (
         <>
             {/* Seção Principal (Hero) */}
             <div
-                className="relative flex items-center justify-start w-full h-[300px] bg-cover bg-center"
+                className="relative flex items-center justify-start w-full h-120 bg-cover bg-center"
                 style={{ backgroundImage: "url('/foto-de-fundo.png')" }}
             >
-                <div className="container px-4 mx-auto">
+                <div className="container pl-15 mx-auto">
                     {/* Caixa de texto sobre a imagem */}
-                    <div className="bg-[#2D2D2A] p-8 rounded-lg max-w-xs">
+                    <div className="bg-[#2D2D2A] px-9.5 py-22 rounded-lg max-w-xs">
                         <h2 className="text-3xl font-bold text-white mb-5">
                             Bateu a fome? A gente resolve!
                         </h2>
@@ -19,9 +21,7 @@ function Home() {
                 </div>
             </div>
 
-            {/* Seção dos Produtos (a ser criada) */}
-            <div className="w-full py-16 bg-[#FDF8F1]">
-           </div>
+            <ListarProdutosHome />
         </>
     );
 }

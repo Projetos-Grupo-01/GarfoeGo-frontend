@@ -1,7 +1,7 @@
 import { MagnifyingGlassIcon } from "@phosphor-icons/react";
 import { type ChangeEvent, type FormEvent, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../../public/garfo-go-logo.png";
+import logo from "/garfo-go-logo.png";
 
 function Navbar() {
     const navigate = useNavigate();
