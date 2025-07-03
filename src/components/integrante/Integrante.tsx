@@ -1,7 +1,11 @@
+import { GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react";
+
 interface Member {
   image: string;
   name: string;
   role: string;
+  linkedinUrl: string;
+  githubUrl: string;
 }
 
 interface IntegranteProps {
@@ -18,6 +22,14 @@ function Integrante({ member }: IntegranteProps) {
       />
       <h3 className="mt-4 text-xl font-semibold text-gray-800">{member.name}</h3>
       <p className="text-gray-600">{member.role}</p>
+      <div className="flex gap-3 py-2">
+        <a href={member.linkedinUrl}>
+          <LinkedinLogoIcon size={32} color="#1e2939"/>
+        </a>
+        <a href={member.githubUrl}>
+          <GithubLogoIcon size={32} color="#1e2939"/>
+        </a>
+      </div>
     </div>
   );
 }

@@ -23,11 +23,11 @@ function Introducao() {
             Sobre o Projeto
           </h1>
           <p className="text-base md:text-lg text-gray-700 leading-relaxed max-w-xl mx-auto md:mx-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Cum earum magni sed temporibus quod aut facere iusto? 
-            Ex impedit autem a laboriosam tempore et eveniet mollitia 
-            ea voluptas omnis aut dolor aspernatur ut neque porro a voluptas nemo. 
-            Sit eaque exercitationem vel voluptate iste hic dolor omnis.
+            O Garfo & Go é um projeto desenvolvido com o objetivo de criar um sistema de delivery de 
+            alimentos, permitindo o gerenciamento eficiente dos produtos oferecidos por diferentes 
+            restaurantes. A solução foi construída para realizar operações completas de CRUD 
+            (Create, Read, Update, Delete) sobre os produtos cadastrados, garantindo flexibilidade 
+            e praticidade tanto para os estabelecimentos quanto para os usuários do serviço.
           </p>
         </div>
       </div>

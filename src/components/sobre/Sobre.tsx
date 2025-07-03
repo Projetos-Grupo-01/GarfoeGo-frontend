@@ -3,59 +3,75 @@ import Integrante from '../integrante/Integrante'
 const teamMembers = [
   {
     id: 1,
-    name: 'João Silva',
+    name: 'Aylla Scaglia',
     role: 'Desenvolvedor Frontend',
-    image: '/perfil-teste.png',
+    image: '/Aylla.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/aylla-scaglia/',
+    githubUrl: 'https://github.com/scaglia-aylla1',
   },
   {
     id: 2,
-    name: 'Maria Oliveira',
+    name: 'Fernanda Murched',
     role: 'Desenvolvedora Backend',
-    image: '/perfil-teste.png',
+    image: '/Fernanda.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/fernandamurched',
+    githubUrl: 'https://github.com/FernandaMurched',
   },
   {
     id: 3,
-    name: 'Carlos Souza',
+    name: 'Gabriel Souza',
     role: 'UX/UI Designer',
-    image: '/perfil-teste.png',
+    image: '/Gabriel.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/gabriel-souza77/',
+    githubUrl: 'https://github.com/GabrielSouza77',
   },
   {
     id: 4,
-    name: 'Ana Costa',
-    role: 'Gerente de Projeto',
-    image: '/perfil-teste.png',
+    name: 'Giovana Lucia',
+    role: 'UX/UI Designer',
+    image: '/Giovana.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/giovana-lucia/',
+    githubUrl: 'https://github.com/Giovanalucia',
   },
   {
     id: 5,
-    name: 'Pedro Almeida',
-    role: 'Analista de Dados',
-    image: '/perfil-teste.png',
+    name: 'Luan Queiroz',
+    role: 'Gerente de Projeto',
+    image: '/Luan.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/luan-queiroz/',
+    githubUrl: 'https://github.com/Luuh03',
   },
   {
     id: 6,
-    name: 'Beatriz Lima',
-    role: 'Especialista em Marketing',
-    image: '/perfil-teste.png',
+    name: 'Maria Luiza Torres',
+    role: 'Analista de Dados',
+    image: '/Malu.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/maria-lu%C3%ADza-t-01a302340',
+    githubUrl: 'https://github.com/Marialuiza-dev',
   },
   {
     id: 7,
-    name: 'Lucas Pereira',
-    role: 'Arquiteto de Software',
-    image: '/perfil-teste.png',
+    name: 'Renata Negrini',
+    role: 'Especialista em Marketing',
+    image: '/Renata.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/rmln/',
+    githubUrl: 'https://github.com/renatangr',
   },
   {
     id: 8,
-    name: 'Mariana Santos',
+    name: 'Samuel Silva',
     role: 'Quality Assurance',
-    image: '/perfil-teste.png',
+    image: '/Samuel.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/samuel-ssf',
+    githubUrl: 'https://github.com/Samuel-ssf',
   },
 ];
 
 function Sobre() {
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="py-3 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Nossa Equipe</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-10">Quem é a nossa equipe</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
           {teamMembers.map((member) => (
