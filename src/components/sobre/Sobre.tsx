@@ -5,7 +5,7 @@ const teamMembers = [
     id: 1,
     name: 'João Silva',
     role: 'Desenvolvedor Frontend',
-    image: '/perfil-teste.png', // Altere para os caminhos reais das suas imagens
+    image: '/perfil-teste.png',
   },
   {
     id: 2,
