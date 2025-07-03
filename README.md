@@ -126,14 +126,13 @@ Durante o uso, valide:
 
 ## 9. 🤝 Contribuidores
 **Integrantes**
-* Exemplo
-* Exemplo
-* Exemplo
-* Exemplo
-* Exemplo
-* Exemplo
-* Exemplo
-* Exemplo
+* [Aylla](https://www.linkedin.com/in/aylla-scaglia/)
+* [Fernanda](https://www.linkedin.com/in/fernandamurched/)
+* [Gabriel](https://www.linkedin.com/in/gabriel-souza77/)
+* [Giovana](https://www.linkedin.com/in/giovana-lucia/)
+* [Luan](https://www.linkedin.com/in/luan-queiroz/)
+* [Maria Luiza](https://www.linkedin.com/in/marialuiza-torres/)
+* [Samuel](https://www.linkedin.com/in/samuel-ssf/)
 
 ## 11. 👩‍💻 Contato 
 Desenvolvido por [**OctaCode**](https://github.com/Projetos-Grupo-01)
