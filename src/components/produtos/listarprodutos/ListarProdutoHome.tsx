@@ -28,7 +28,7 @@ function ListarProdutosHome() {
           className="mx-auto my-8"
         />
       )}
-      <div className="flex justify-center w-full bg-[#fff4e6] 2xl:px-[120px]">
+      <section className="flex justify-center w-full bg-[#fff4e6] 2xl:px-[120px]">
         <div className="flex flex-col mx-4 w-full">
           {!isLoading && produtos.length === 0 && (
             <span className="my-8 text-3xl text-center">
@@ -44,7 +44,7 @@ function ListarProdutosHome() {
             ))}
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
